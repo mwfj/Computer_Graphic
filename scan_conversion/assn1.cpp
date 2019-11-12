@@ -1,10 +1,10 @@
-//
-//		          Programming Assignment #1
-//
-//			        Victor Zordan
-//
-//
-//
+/**
+*		          Programming Assignment #2
+*
+*			       @author Wufangjie Ma
+*
+*
+**/
 /***************************************************************************/
 
 /* Include needed files */

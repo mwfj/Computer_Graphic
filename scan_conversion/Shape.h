@@ -13,6 +13,11 @@
 #include "Point.h"
 #include "ColorPicker.h"
 #include <iostream>
+/**********************************************
+ * 
+ * @author Wufangjie Ma
+ * 
+ **********************************************/
 class Shape
 {
 public:

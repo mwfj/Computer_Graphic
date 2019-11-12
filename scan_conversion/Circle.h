@@ -4,7 +4,11 @@
 #include "ColorPicker.h"
 #include <vector>
 #include <math.h>
-
+/**********************************************
+ * 
+ * @author Wufangjie Ma
+ * 
+ **********************************************/
 class Circle : public Shape{
 public:
     Circle(){}

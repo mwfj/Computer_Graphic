@@ -1,5 +1,10 @@
 #ifndef LINE__H
 #define LINE__H
+/**********************************************
+ * 
+ * @author Wufangjie Ma
+ * 
+ **********************************************/
 #include "Point.h"
 #include "Shape.h"
 #include <iostream>

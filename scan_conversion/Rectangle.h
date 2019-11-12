@@ -1,5 +1,10 @@
 #ifndef RECTANGLE__H
 #define RECTANGLE__H
+/**********************************************
+ * 
+ * @author Wufangjie Ma
+ * 
+ **********************************************/
 #include "Line.h"
 #include "ColorPicker.h"
 // #include "Shape.h"

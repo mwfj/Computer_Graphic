@@ -1,5 +1,10 @@
 #ifndef POINT__H
 #define POINT__H
+/**********************************************
+ * 
+ * @author Wufangjie Ma
+ * 
+ **********************************************/
 class Point{
 public:
 	Point();

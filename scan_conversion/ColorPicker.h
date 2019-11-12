@@ -1,5 +1,10 @@
 #ifndef COLORPICKER__H
 #define COLORPICKER__H
+/**********************************************
+ * 
+ * @author Wufangjie Ma
+ * 
+ **********************************************/
 #ifdef __APPLE__
 #include <OpenGL/gl.h>
 #include <OpenGL/glu.h>
@@ -9,7 +14,6 @@
 #include <GL/glu.h>
 #include <GL/glut.h>
 #endif
-// #include "Shape.h"
 class ColorPicker{
 public:
     ColorPicker(){}

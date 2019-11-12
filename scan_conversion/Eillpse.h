@@ -1,5 +1,10 @@
 #ifndef ELLIPSE__H
 #define ELLIPSE__H
+/**********************************************
+ * 
+ * @author Wufangjie Ma
+ * 
+ **********************************************/
 #define ROUND(a) ((int) (a + 0.5))
 #include "Shape.h"
 #include "ColorPicker.h"

@@ -4,6 +4,11 @@
 #include "ColorPicker.h"
 // #include "Shape.h"
 #include <vector>
+/**********************************************
+ * 
+ * @author Wufangjie Ma
+ * 
+ **********************************************/
 class Triangle : public Shape
 {
 public:
