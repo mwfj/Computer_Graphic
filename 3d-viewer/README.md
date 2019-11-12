@@ -30,8 +30,8 @@ For chaning the OBJ file, go to assn2.cpp and change the value of `std::string p
 
 In the folder of this project, I provide two obj file for testing ----` model1.obj and model2.obj`.
 
-Orthogonal View:
+Orthogonal View:<br>
 ![orth](../gif/3d-viewer.gif)
-
-Perpective View
+<br>
+Perpective View:<br>
 ![pespective](../gif/perspective-view.gif)
