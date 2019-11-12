@@ -26,6 +26,9 @@ Specifically, this program has separate four part: Utility tools part; Obj file 
 + main part:
     - assn2: implement 3D model **viewing, rotation, translation and scale** by using the class mentioned above. In this part, I conver Vector2f and Vector3f to two-dimentional matrix(vetor) and three-dimentional matrix(vector) for calculation
 
+ **Note that: In this project, I only use some basic OpenGL function.**
+
+
 For chaning the OBJ file, go to assn2.cpp and change the value of `std::string path_name`(line 53).
 
 In the folder of this project, I provide two obj file for testing ----` model1.obj and model2.obj`.
