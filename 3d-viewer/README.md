@@ -29,3 +29,9 @@ Specifically, this program has separate four part: Utility tools part; Obj file 
 For chaning the OBJ file, go to assn2.cpp and change the value of `std::string path_name`(line 53).
 
 In the folder of this project, I provide two obj file for testing ----` model1.obj and model2.obj`.
+
+Orthogonal View:
+![orth](../gif/3d-viewer.gif)
+
+Perpective View
+![pespective](../gif/perspective-view.gif)
