@@ -20,6 +20,7 @@ will pass the point vector from main function to the shape class you choose. The
 Moreover, I made a vector to store all the shape class. In other words, it stores the shape I drawed before. In the display function, it will iterate this vector in order to draw all the shape I drawed.
 
 For colorpicker, I make a specific area for different color. Choose this color by click the color area.
+**Note that: In this project, I only use some basic OpenGL function.**
 
 ## Run
 
