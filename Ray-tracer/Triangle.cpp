@@ -49,8 +49,6 @@ double dist_to_line(const Point &a, const Point &b,const Point &c)
 
 }
 double Triangle::smallest_distance(const Point& p_){
-    double mini_distance = 100.00;
-    double temp_distance = 100.00;
     Point a = t_points[0];
     //std::cout<<"p_: "<<p_.getX()<<", "<<p_.getY()<<", "<<p_.getZ()<<std::endl;
     Point b = t_points[1];

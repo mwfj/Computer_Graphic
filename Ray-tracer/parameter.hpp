@@ -12,6 +12,8 @@
 #define BOTTOM -(HEIGHT/2-1)
 #define UP HEIGHT/2
 
+#define SHAPE_SIZE 200.0
+
 #define PI 3.14159265
 #define DEGREE 20.000
 #define NEGATIVE_DEGREE -20.000

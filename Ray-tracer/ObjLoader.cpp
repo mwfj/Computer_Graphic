@@ -1,4 +1,5 @@
 #include "ObjLoader.hpp"
+#include "parameter.hpp"
 #include <sstream>
 #include <assert.h>
 
@@ -115,13 +116,13 @@ void ObjLoader::shape_normalize(){
     double right = getMax().getX();
     double near = getMax().getZ();
     double far = getMin().getZ();
-    double shape_size = 100.00;
+    // double shape_size = 100.00;
 
     for (int i = 0; i < vertex_list.size(); i++)
     {
-        vertex_list[i].setX( vertex_list[i].getX() * ( shape_size/( right-left ) ) );
-        vertex_list[i].setY( vertex_list[i].getY() * ( shape_size/( top-bottom ) ) );
-        vertex_list[i].setZ( vertex_list[i].getZ() * ( shape_size/( near-far ) ) );
+        vertex_list[i].setX( vertex_list[i].getX() * ( SHAPE_SIZE/( right-left ) ) );
+        vertex_list[i].setY( vertex_list[i].getY() * ( SHAPE_SIZE/( top-bottom ) ) );
+        vertex_list[i].setZ( vertex_list[i].getZ() * ( SHAPE_SIZE/( near-far ) ) );
     }
 
 
@@ -169,8 +170,7 @@ Vector3f ObjLoader::getMax() const{
         
     }
     Vector3f max_v3(max_x,max_y,max_z);
-    // std::cout<<"Max value:" <<"x: "<<max_x<<", "<<"y: "<<max_y<<", "<<"z: "<<max_z<<", "<<std::endl;
-    
+    // std::cout<<"Max value:" <<"x: "<<max_x<<", "<<"y: "<<max_y<<", "<<"z: "<<max_z<<", "<<std::endl;   
     return max_v3;
 }
 // get min value for x, y, z
