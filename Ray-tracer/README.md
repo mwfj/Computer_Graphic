@@ -29,6 +29,8 @@ Specifically for the class:
 ## Result(Ray tracing)
 The result shows (`Basic rendering`, `Bump mapping`) in the `./picture/` folder
 
+![demo_assn3](../gif/running_demo.gif)
+
 ### Basic Rendering
 ![basic_rendereing](./picture/basic_rendering.png)
 
