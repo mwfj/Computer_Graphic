@@ -32,5 +32,7 @@ The result shows (`Basic rendering`, `Bump mapping`) in the `./picture/` folder
 ### Basic Rendering
 ![basic_rendereing](./picture/basic_rendering.png)
 
+![teddy](./picture/teddy.png)
+
 ### Bump Mapping
 ![bump mapping](./picture/bumping.png)
