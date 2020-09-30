@@ -1,6 +1,14 @@
 # Programming assignment 3
 ## Ray-tracer
 
+### In this project, we use the following techniques to achieve basic rendering
+
++ Basic OpenGL Library: glClearColor, glVertex3i, GL_POINTS
++ Phone Shading
++ Ray Tracing
++ Cross Product
++ Dot Product
+
 **To run my program, enter `make` command in root path of this program and enter `./run` command to run this program.**
 
 In this program, I implement `basic rendering`, `TRIANGLE REMESH` and `Bumpmapping`
@@ -29,7 +37,7 @@ Specifically for the class:
 ## Result(Ray tracing)
 The result shows (`Basic rendering`, `Bump mapping`) in the `./picture/` folder
 
-![demo_assn3](../gif/running_demo.gif)
+![demo_assn3](../gif/ray_tracing_demo.gif)
 
 ### Basic Rendering
 ![basic_rendereing](./picture/basic_rendering.png)
