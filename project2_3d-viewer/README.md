@@ -1,6 +1,9 @@
 # Programming assignment 2
 ## 3D-viewer
 
+### In this project, we make a objfile phaser and 3d-model viewer to show a 3d model by OpenGL
+### Note that: we only use the basic OpenGL library(glClearColor, glVertex3i, GL_POINTS), all of the main logic made by myself(project requirment)
+
 **To run my program, enter `make` command in root path of this program and enter `./run` command to run this program.**
 
 In this program, I made a 3d-viewer for parsed OBJ file and show its 3d model on the screen and this model has done the **normalization and located in the center of screen** when user opening it.
