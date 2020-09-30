@@ -1,5 +1,7 @@
 # Programming assignment 1
 
+![program_screenshot](./pic/Draw_shape_demo.png)
+
 ## Discribe
 
 In this program assignment, I have drawed **Line**, **Rectangle**, **Triangle** by using dda algorithm. 
